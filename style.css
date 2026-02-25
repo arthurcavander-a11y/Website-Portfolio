@@ -350,3 +350,76 @@ font-weight: 500;
     from{ transform: rotate(-6deg);}
     to {transform: rotate(6deg);}
 }
+
+/*footer*/
+
+footer{
+    width: 100%;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    margin-top: 80px;
+}
+
+.footer-container{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.footer-left h2{
+    font-family: 'Road Rage', sans-serif;
+    font-size: 1.4rem;
+    color: var(--accent);
+    margin-bottom: 6px;
+}
+
+.footer-left p{
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 4px;
+}
+
+.footer-note{
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+.footer-copy{
+    margin-top: 20px;
+    font-size: 12px;
+    color: var(--border);
+}
+
+.footer-links{
+    display: flex;
+    gap: 60px;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-col-title{
+    font-family: 'Lora', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
+.footer-cola{
+    font-size: 14px;
+    color: var(--muted);
+}
+
+.footer-col a:hover{
+    color: var(--accent);
+    text-decoration: underline;
+}
