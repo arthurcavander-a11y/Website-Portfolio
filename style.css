@@ -351,6 +351,36 @@ font-weight: 500;
     to {transform: rotate(6deg);}
 }
 
+.hero-cloud{
+    position: absolute;
+    background: #ffffffcc;
+    border-radius: 50px;
+    box-shadow: 40px 10px 0 0 #ffffffcc,
+    80px 5px 0 0 #ffffffcc,
+    20px -10px 0 0 #ffffffcc;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+.hero.hero-visible .hero-cloud{
+    opacity: 1;
+}
+
+.hero-cloud-1{
+    top:15%;
+    left: -220px;
+    width: 180px;
+    height: 90px;
+}
+
+.hero-cloud-2{
+    top: 5%;
+    left: -180px;
+    width: 130px;
+    height: 65px;
+}
+
 /*footer*/
 
 footer{
@@ -423,3 +453,4 @@ footer{
     color: var(--accent);
     text-decoration: underline;
 }
+
